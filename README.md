@@ -1,5 +1,5 @@
 # Mortal Kombat
-## by Anastasia Karolik
+## By Anastasia Karolik
 ### Technologies:
 - HTML
 - CSS
