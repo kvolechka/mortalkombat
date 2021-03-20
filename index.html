@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mortal Kombat - премьера фильма 2021</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="header">
+    <a href="/" class="logo">
+    <img src="image/logo.png" alt="Кинопульс" class="logo-img">
+    </a>
+    <a href="#" class="user">
+    <span class="user-name">User</span>
+    <img src="image/user.png" alt="Аватар" class="user-photo">
+  </a>
+  </header>
+  <section class="film">
+    <img src="image/film-logo.jpg" alt="Mortal Kombat" class="film-logo">
+    <div class="tags">
+      <span class="data">2021</span>
+      <span class="genre">боевик, фентези, фантастика</span>
+      <span class="country">США</span>
+      <span class="age">18+</span>
+    </div>
+    <p class="description">Продолжение легендарного фильма из 90-х. Предстоит по-настоящему смертельная битва, где останется только сильнейший</p>
+    <div class="button-group">
+      <a data-fancybox data-src="#trueModal" data-modal="true" href="javascript:;" 
+              class="button button-primery btn btn-primary">Предзаказ фильма</a>
+        <div style="display: none;max-width:600px;" id="trueModal">
+          <h2>Введите свою почту:</h2>
+          <input type="text" class="email">
+          </p><button data-fancybox-close class="btn button button-primery">Подписаться</button></p>
+        </div>
+      <a data-fancybox href="https://www.youtube.com/watch?v=gwsaI9txcXs&t" class="button button-default">
+        <img src="image/play.png" alt="play" class="buttton-icon">
+        <span class="button-text">Смотреть трейлер</span>
+      </a>
+    </div>
+  </section>
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+  <script src="js/jquery.vide.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
